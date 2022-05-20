@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import android.os.Handler;
@@ -39,10 +40,13 @@ public class MainActivity extends AppCompatActivity {
                         replaceFragment(new Home_fragment());
                     break;
                     case R.id.myclub_nav:
+                        replaceFragment(new myclub_fragment());
                         break;
                     case R.id.allclub_nav:
+                        replaceFragment(new club_fragment());
                         break;
                     case R.id.events:
+                        replaceFragment(new calender_fragment());
                         break;
                     case R.id.profile:
                         replaceFragment(new profile_fragment());

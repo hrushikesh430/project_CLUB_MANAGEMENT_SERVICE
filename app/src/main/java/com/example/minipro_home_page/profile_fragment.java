@@ -5,14 +5,19 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
+
+import java.time.LocalDate;
 
 
 public class profile_fragment extends Fragment {
+
 
 
     @Override
@@ -23,6 +28,9 @@ public class profile_fragment extends Fragment {
         return inflater.inflate(R.layout.fragment_profile_fragment, container, false);
 
     }
+
+
+
 
 
 }
