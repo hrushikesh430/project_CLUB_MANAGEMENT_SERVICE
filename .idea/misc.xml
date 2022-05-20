@@ -3,24 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/all_clubs_icon.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/corner.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_club.xml" value="0.1755" />
         <entry key="app/src/main/res/drawable/logout.xml" value="0.1755" />
         <entry key="app/src/main/res/drawable/myclub_icon.xml" value="0.1755" />
         <entry key="app/src/main/res/drawable/profile_icon.xml" value="0.1755" />
         <entry key="app/src/main/res/drawable/search_view_background.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/settings.xml" value="0.1755" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1755" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/layout/calendar_cell.xml" value="0.1368106028217187" />
         <entry key="app/src/main/res/layout/calendar_list_layout.xml" value="0.33" />
         <entry key="app/src/main/res/layout/content_navigation_drawer_profile.xml" value="0.1368106028217187" />
         <entry key="app/src/main/res/layout/custom_grid_layout.xml" value="0.1368106028217187" />
-        <entry key="app/src/main/res/layout/fragment_calender_fragment.xml" value="0.20388349514563106" />
+        <entry key="app/src/main/res/layout/fragment_calender_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_club_fragment.xml" value="0.1368106028217187" />
         <entry key="app/src/main/res/layout/fragment_home_fragment.xml" value="0.13675213675213677" />
-        <entry key="app/src/main/res/layout/fragment_myclub_fragment.xml" value="0.1368106028217187" />
-        <entry key="app/src/main/res/layout/fragment_profile_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_myclub_fragment.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_profile_fragment.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.1368106028217187" />
         <entry key="app/src/main/res/layout/item.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/layout/nav_header.xml" value="0.33" />
         <entry key="app/src/main/res/layout/nav_header_navigation_drawer_profile.xml" value="0.1368106028217187" />
+        <entry key="app/src/main/res/layout/row.xml" value="0.1368106028217187" />
         <entry key="app/src/main/res/menu/dept_popup_menu.xml" value="0.1368106028217187" />
         <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.1368106028217187" />
         <entry key="app/src/main/res/menu/main_nav_menu.xml" value="0.16666666666666666" />

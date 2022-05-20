@@ -6,14 +6,29 @@
     tools:context="myclub_fragment">
 
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myclubpage_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        tools:layout_editor_absoluteX="-16dp"
+        android:layout_marginTop="10dp"/>
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:fontFamily="sans-serif-black"
-        android:text="My clubs"
+        android:fontFamily="cursive"
+        android:text="My Clubs"
         android:textColor="@color/black"
-        android:layout_marginLeft="140dp"/>
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="20dp"
+       />
     <EditText
         android:id="@+id/et_search"
         android:layout_width="360dp"
@@ -49,16 +64,18 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="474dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="245dp"
-        android:layout_marginBottom="70dp"
-        android:background="@drawable/background_bg">
+
+        android:layout_marginBottom="55dp"
+        android:background="#E4A03D">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:layout_marginTop="30dp"
             android:id="@+id/recview"
+            android:paddingHorizontal="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp" />
 
 
     </RelativeLayout>
